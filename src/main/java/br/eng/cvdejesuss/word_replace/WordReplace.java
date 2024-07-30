@@ -20,19 +20,19 @@ public class WordReplace {
 	public static void main(String[] args) {
 		// Lista de arquivos de entrada e saída
 		String[] inputFilePaths = { 
-				"D:\\IPM\\Modelo\\1-Autuacao_designacao_compromisso_escrivao.docx",
-				"D:\\IPM\\Modelo\\2-Despacho_01-diligencias_necessarias.docx"
+				"D:\\Backup_Laptop_DELL\\Projeto_Automatizado\\Modelo\\1-Autuacao_designacao_compromisso_escrivao.docx",
+				"D:\\Backup_Laptop_DELL\\Projeto_Automatizado\\Modelo\\2-Despacho_01-diligencias_necessarias.docx"
 				// Adicione mais arquivos conforme necessário
 		};
 
 		String[] outputFilePaths = { 
-				"D:\\IPM\\Executado\\1-Autuacao_designacao_compromisso_escrivao_new.docx",
-				"D:\\IPM\\Executado\\2-Despacho_01-diligencias_necessarias_new.docx"
+				"D:\\Backup_Laptop_DELL\\Projeto_Automatizado\\Formatado\\1-Autuacao_designacao_compromisso_escrivao_new.docx",
+				"D:\\Backup_Laptop_DELL\\Projeto_Automatizado\\Formatado\\2-Despacho_01-diligencias_necessarias_new.docx"
 				// Correspondente aos arquivos de entrada
 		};
 
 		// Caminho para o arquivo de substituições
-		String substitutionFilePath = "D:\\IPM\\Modelo\\substituicoes.txt";
+		String substitutionFilePath = "D:\\Backup_Laptop_DELL\\Projeto_Automatizado\\Modelo\\substituicoes.txt";
 
 		// Mapeamento de palavras-chave para substituições
 		Map<String, String> replacements = readReplacementsFromFile(substitutionFilePath);
